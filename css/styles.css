@@ -28,6 +28,12 @@ img {
 }
 .page-header .container {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.address .container {
+    display: flex;
+    align-items: center;
 }
 .team-title {
     font-weight: 700;
@@ -58,9 +64,11 @@ a {
     background-color: #FFFFFF;
     color: #2E2F42;
     line-height: 1.5;
+    
 }
 .address {
     font-style: normal;
+    display: block;
 }
 
 .menu {
@@ -75,14 +83,18 @@ a {
     font-style: normal;
     letter-spacing: 0.02em;
     display: block;
-    padding: 24px 40px;
-    justify-content: flex-end;
+    padding: 24px;
+    
 }
 .address-header .link:hover, .address-header .link:focus {
     color: #404bbf;
 }
 .section-one {
     background-color: #2E2F42;
+    height: 600;
+}
+.section-one .container {
+    display: block;
 }
 .page-title {
     font-size: 56px;
@@ -91,6 +103,9 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: white;
+    padding-top: 191px;
+    padding-bottom: 289px;
+    
 }
 .button {
     font-family: "Roboto", sans-serif;
@@ -108,6 +123,7 @@ a {
 
 .category-header , .address-header {
     display: flex;
+    
 }
 .category-header .link {
     font-weight: 500;
@@ -115,7 +131,10 @@ a {
     color: #2E2F42;
     display: block;
     padding: 24px 40px;
+    
+    
 }
+
 .category-header .link:hover, .category-header .link:focus {
     color: #404BBF;
 }
@@ -173,4 +192,6 @@ a {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-top: 25.5px;
+    padding-bottom: 25.5px ;
 }

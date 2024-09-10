@@ -7,6 +7,28 @@ body {
     letter-spacing: 0.02em;
 }
 
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+h1 , h2 , h3 , p , ul {
+    margin: 0;
+}
+ul {
+    padding-left: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1158px;
+    padding: 0 44px;
+    margin: 0 auto;
+}
+.page-header .container {
+    display: flex;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -40,12 +62,21 @@ a {
 .address {
     font-style: normal;
 }
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
 .address-header .link {
     font-family: "Roboto" sans-serif;
     font-size: 16px;
     color: #434455;
     font-style: normal;
     letter-spacing: 0.02em;
+    display: block;
+    padding: 24px 40px;
+    justify-content: flex-end;
 }
 .address-header .link:hover, .address-header .link:focus {
     color: #404bbf;
@@ -74,10 +105,16 @@ a {
 .button:hover, .button:active, .button:focus {
     background-color: #404BBF;
 }
+
+.category-header , .address-header {
+    display: flex;
+}
 .category-header .link {
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    display: block;
+    padding: 24px 40px;
 }
 .category-header .link:hover, .category-header .link:focus {
     color: #404BBF;

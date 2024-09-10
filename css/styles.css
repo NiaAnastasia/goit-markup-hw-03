@@ -23,13 +23,12 @@ img {
 
 .container {
     max-width: 1158px;
-    padding: 0 44px;
+    padding: 0 15px;
     margin: 0 auto;
 }
 .page-header .container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .address .container {
     display: flex;
@@ -64,6 +63,7 @@ a {
     background-color: #FFFFFF;
     color: #2E2F42;
     line-height: 1.5;
+    border-bottom: 1px solid #e7e9fc;
     
 }
 .address {
@@ -73,7 +73,7 @@ a {
 
 .menu {
     display: flex;
-    gap: 40px;
+    align-items: center;
 }
 
 .address-header .link {
@@ -83,19 +83,14 @@ a {
     font-style: normal;
     letter-spacing: 0.02em;
     display: block;
-    padding: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     
 }
 .address-header .link:hover, .address-header .link:focus {
     color: #404bbf;
 }
-.section-one {
-    background-color: #2E2F42;
-    height: 600;
-}
-.section-one .container {
-    display: block;
-}
+
 .page-title {
     font-size: 56px;
     text-align: center;
@@ -103,10 +98,10 @@ a {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: white;
-    padding-top: 191px;
-    padding-bottom: 289px;
+    max-width: 496px;
     
 }
+
 .button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -116,13 +111,31 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    display: block;
+
 }
+.container .button {
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    border-radius: 4px;
+}
+
 .button:hover, .button:active, .button:focus {
     background-color: #404BBF;
 }
 
+.section-one {
+    background-color: #2E2F42;
+    padding: 188px 0;
+}
+
+.section-one .container {
+    display: block;
+}
 .category-header , .address-header {
     display: flex;
+    gap: 40px;
     
 }
 .category-header .link {
@@ -130,10 +143,10 @@ a {
     letter-spacing: 0.02em;
     color: #2E2F42;
     display: block;
-    padding: 24px 40px;
-    
-    
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
+
 
 .category-header .link:hover, .category-header .link:focus {
     color: #404BBF;
@@ -194,4 +207,8 @@ a {
     text-transform: uppercase;
     padding-top: 25.5px;
     padding-bottom: 25.5px ;
+    margin-right: 76px;
+}
+.category-header .link:last-child {
+    margin-right: 0;
 }

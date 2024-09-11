@@ -190,6 +190,9 @@ a {
 .list-two  {
     width:calc((100% - 3 * 24px) / 4);
 }
+.ulist-two .three-title {
+    margin-bottom: 8px;
+}
 
 
 .section-team {

@@ -43,6 +43,7 @@ img {
     line-height: 1.11;
     text-align: center;
     color: #2E2F42;
+    margin-bottom: 72px;
 }
 .three-title {
     color: #2E2F42;
@@ -50,6 +51,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8;
 }
 .section-two ul .text {
     line-height: 1.5;
@@ -114,6 +116,7 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+
 }
 .container .button {
     display: block;
@@ -184,16 +187,40 @@ a {
 .ulist-two .list-two:last-child {
     margin-right: 0;
 }
+.list-two  {
+    width:calc((100% - 3 * 24px) / 4);
+}
+
 
 .section-team {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.ulist-workers {
+    display: flex;
+    gap: 24px;
 }
 .workers {
     background-color: #FFFFFF;
+    width: calc((100% - 3 *24 ) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+.team-names {
+    padding: 32px 0;
+}
+.team-names .three-title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.team-names .text {
+    text-align: center;
 }
 .section-team .text {
     font-size: 16px;
     line-height: 1.5;
+}
+.section-four {
+    padding: 120px 0 120px 0;
 }
 .section-four .title{
     font-size: 36px;
@@ -202,6 +229,7 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 .section-four .three-title {
     color: #2E2F42;
@@ -213,13 +241,40 @@ a {
 .section-four .text{
     line-height: 1.5;
 }
+.ulportfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
 
+.ulportfolio-list .list {
+    width: calc((100% - 48) / 3);
+}
+
+.app-name {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    width: 360px;
+    height: 120px;
+    border-top: none;
+}
+.app-name .three-title {
+    margin-bottom: 8px;
+}
 .page-footer {
     background-color: #2E2F42;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     line-height: 1.5;
+    padding: 100px 0;
 }
+
+.page-footer .container .logo-header {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .decoration-header{
     color: #2e2f42;
 }

@@ -102,8 +102,9 @@ a {
     letter-spacing: 0.02em;
     color: white;
     max-width: 496px;
-    margin: 0 auto;
-    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
     
 }
 
@@ -125,8 +126,10 @@ a {
     min-width: 169px;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     gap: 10px;
+
 }
 
 .button:hover, .button:active, .button:focus {
@@ -182,7 +185,7 @@ a {
 .ulist-two {
     display: flex;
     gap: 24px;
-    margin-right: 24px;
+    
 }
 .ulist-two .list-two:last-child {
     margin-right: 0;
@@ -276,6 +279,10 @@ a {
 .page-footer .container .logo-header {
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
+}
+.page-footer .container p {
+    max-width: 264px;
 }
 
 .decoration-header{
